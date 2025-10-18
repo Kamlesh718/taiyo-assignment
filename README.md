@@ -11,7 +11,7 @@ A responsive React application to manage contacts and visualize global COVID-19 
 
 ---
 
-## Demo
+## Live url
 
 **Live URL:** (https://taiyo-assignment-bay.vercel.app/)
 
@@ -49,7 +49,24 @@ A responsive React application to manage contacts and visualize global COVID-19 
 - **Styling:** Tailwind CSS  
 - **Charts:** Chart.js, react-chartjs-2  
 - **Maps:** Leaflet, react-leaflet  
-- **Icons:** react-icons  
+- **Icons:** react-icons
+
+
+
+---
+
+## Setup & Installation (Vite)
+
+**Clone the repository:**
+
+git clone https://github.com/yourusername/contacts-dashboard.git
+cd taiyo-assignment
+
+npm install
+
+npm run dev
+
+
 
 
 
