@@ -55,11 +55,12 @@ A responsive React application to manage contacts and visualize global COVID-19 
 
 ---
 
-## Setup & Installation (Vite)
+## Setup & Installation
 
 **Clone the repository:**
 
 git clone https://github.com/yourusername/taiyo-assignment.git
+
 cd taiyo-assignment
 
 npm install
