@@ -74,7 +74,7 @@ function ContactListSection({
                 </p>
                 {/* View contact button */}
                 <button
-                  className="text-md bg-indigo-700 px-3 mt-2 text-indigo-50 rounded-md"
+                  className="text-md bg-indigo-700 px-3 mt-2 text-indigo-50 rounded-md hover:cursor-pointer"
                   onClick={() => handleViewContact(id)}
                 >
                   View
@@ -84,13 +84,13 @@ function ContactListSection({
               {/* Edit and Delete buttons */}
               <div className="flex flex-col gap-2">
                 <button
-                  className="text-yellow-400 hover:text-yellow-300 text-sm font-medium transition"
+                  className="text-yellow-400 hover:text-yellow-300 text-sm font-medium transition hover:cursor-pointer"
                   onClick={() => handleEditContact(id)}
                 >
                   <BiEdit size={26} />
                 </button>
                 <button
-                  className="text-red-400 hover:text-red-300 text-sm font-medium transition"
+                  className="text-red-400 hover:text-red-300 text-sm font-medium transition hover:cursor-pointer"
                   onClick={() => handleDelete(id)}
                 >
                   <MdDelete size={26} />

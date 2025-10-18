@@ -22,7 +22,7 @@ function AddContactSection() {
 
         <button
           onClick={handleToggleForm}
-          className="bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-medium px-4 py-1.5 rounded-md transition mt-2"
+          className="bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-medium px-4 py-1.5 rounded-md transition mt-2 hover:cursor-pointer"
         >
           {toggleForm ? "Hide Form" : "Add Contact"}
         </button>

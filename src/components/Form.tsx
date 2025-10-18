@@ -208,7 +208,7 @@ function Form({ existingContact, onClose, setToggleForm }: FormProps) {
       {/* Submit button */}
       <button
         type="submit"
-        className="bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-4 py-2 rounded-md transition"
+        className="bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-4 py-2 rounded-md transition hover:cursor-pointer"
       >
         {existingContact ? "Update Contact" : "Add Contact"}
       </button>

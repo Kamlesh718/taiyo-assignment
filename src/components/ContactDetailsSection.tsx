@@ -31,7 +31,7 @@ function ContactDetailsSection({
 
             {/* Close button */}
             <button
-              className="absolute top-0 right-0 m-3"
+              className="absolute top-0 right-0 m-3 hover:cursor-pointer"
               onClick={() => setSelectedContact(null)}
             >
               <BiX size={30} />
